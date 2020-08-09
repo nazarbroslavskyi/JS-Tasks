@@ -45,11 +45,13 @@ const c = [1, 3, 4, 5, 7, 7, 9, 6, 6, 0, 'f', 'f'];
 console.log(unique3(c));
 
 
+// The fourth approach
+
 // WITH OBJECT -----------------------
 
 let values2 = ['de', { name: 'Bob' }, { name: 'Bob' }, { name: 'John' }, 43, 13, 4, 4, undefined, null, { b: undefined }, { m: undefined }];
 
-
+// fucntion for sorting keys
 function sortObjectByKeys(obj) {
   let newObj = {};
   if (Object.prototype.toString.call(obj) === '[object Object]') {
